@@ -11,9 +11,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.example.pr22102_ganin9pr.R;
-
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class linearLayoutss extends AppCompatActivity implements View.OnClickListener {
 
     Button btn;
 
@@ -34,6 +32,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
 
-        startActivity(new Intent(this, LinearLayouts.class));
+        startActivity(new Intent(this, linearLayoutss.class));
     }
 }
